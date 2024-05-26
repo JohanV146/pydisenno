@@ -1,0 +1,106 @@
+/* src/pages/HomePage.css */
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Asegura que el contenedor principal ocupe toda la altura de la ventana */
+}
+
+.hero-image {
+  background-image: url('../assets/images/imagePrin.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start; /* Alinea los elementos al principio (arriba) */
+  color: white;
+}
+
+
+.hero-image h1 {
+  font-size: 30px;
+  font-family: 'poppins', sans-serif;
+  font-weight: medium;
+  margin-top: -80px;
+  margin-left: 95px;
+  letter-spacing: 1.3px;
+}
+
+
+.hero-image h2 {
+  font-size: 50px;
+  margin-top: 30px;
+  margin-left: 95px;
+}
+
+.hero-image button {
+  padding: 10px 20px;
+  font-size: 25px;
+  font-family: 'poppins', sans-serif;
+  font-weight: medium;
+  color: white;
+  background-color: #009846;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-left: 95px;
+}
+
+.section-wrapper {
+  display: flex;
+  justify-content: space-between; /* Alinea los elementos a los extremos */
+  align-items: center; /* Centra verticalmente los elementos */
+}
+
+.section {
+  background-image: url('../assets/images/secondImage.jpg');
+  width: 50%;
+  height: 500px;
+  position: relative;
+  padding: 20px;
+  flex: 1;
+  clip-path: polygon(0 0, 100% 0, 85% 100%, 0 100%);
+}
+
+.section-content {
+  width: 100%;
+  height: 600px;
+  flex: 1;
+  background: #f2f2f2;
+  border-radius: 8px;
+  clip-path: polygon(0 100%, 100% 100%, 100% 0, 25% 0);
+
+}
+
+.section-content p {
+  font-size: 16px;
+}
+
+.section-content button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 18px;
+  color: white;
+  background-color: #009846;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.footer {
+  background-color: #009846;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+  position: relative; /* Asegura que el footer esté al final del contenido */
+}

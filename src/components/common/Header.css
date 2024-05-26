@@ -1,0 +1,54 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  background-color: #009846; /* Color de fondo cuando se desplaza */
+  color: white;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.header .logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.header .logo-container .circle {
+  width: 18px;
+  height: 18px;
+  background-color: white;
+  border-radius: 50%;
+  margin-right: 4px;
+}
+
+.header .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.header nav {
+  display: flex;
+  align-items: center;
+}
+
+.header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.header nav ul li {
+  margin: 0;
+}
+
+.header nav ul li a {
+  color: white;
+  text-decoration: none;
+}

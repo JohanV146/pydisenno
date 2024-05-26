@@ -1,0 +1,43 @@
+.main-header {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: calc(100% - 40px);
+    padding: 20px;
+    background-color: transparent;
+    color: white;
+}
+
+.main-header nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center; /* Alinear verticalmente dentro del contenedor */
+}
+
+.main-header nav ul li {
+    margin-right: 20px; /* Espacio entre elementos */
+}
+
+.main-header nav ul li.logo {
+    margin-right: auto; /* Mueve el logo al extremo izquierdo */
+}
+
+.main-header nav ul li.logo a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+
+.main-header .circle {
+    width: 12px;
+    height: 12px;
+    background-color: white;
+    border-radius: 50%;
+    margin-right: 8px; /* Espacio entre el círculo y el texto */
+}
+
+.main-header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
