@@ -4,9 +4,9 @@
   text-align: center;
   padding: 20px;
   width: 100%;
-  box-sizing: border-box; /* Incluye el padding dentro del ancho total */
+  box-sizing: border-box;
   position: relative;
-  overflow-x: hidden; /* Previene el desbordamiento horizontal */
+  overflow-x: hidden; 
 }
 
 .footerContent {
@@ -14,15 +14,15 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
-  box-sizing: border-box; /* Incluye el padding dentro del ancho total */
+  box-sizing: border-box;
 }
 
 .socialIcons {
   margin-bottom: 15px;
   display: flex;
   justify-content: center;
-  flex-wrap: wrap; /* Asegura que los iconos se ajusten al contenedor */
-  max-width: 100%; /* Evita el desbordamiento */
+  flex-wrap: wrap;
+  max-width: 100%;
   box-sizing: border-box;
 }
 
@@ -33,10 +33,10 @@
 }
 
 .divider {
-  width: calc(100% - 40px); /* 20px de distancia a cada lado */
+  width: calc(100% - 40px);
   border-top: 1px solid white;
   margin-bottom: 15px;
-  box-sizing: border-box; /* Incluye el padding dentro del ancho total */
+  box-sizing: border-box;
 }
 
 .footerLinks {
@@ -45,7 +45,7 @@
   flex-wrap: wrap;
   justify-content: center;
   margin-bottom: 15px;
-  max-width: 100%; /* Evita el desbordamiento */
+  max-width: 100%;
   box-sizing: border-box;
 }
 
